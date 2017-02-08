@@ -425,10 +425,10 @@ sub _public_routes {
     my $r = $app->routes;
     $r->get("/login")->to("login#login_get");
     $r->post("/login")->to("login#login_post");
-    $r->get("/signup")->to("login#signup_get");
-    $r->post("/signup")->to("login#signup_post");
-    $r->get("/login/forgot")->to("login#forgot_get");
-    $r->post("/login/forgot")->to("login#forgot_post");
+    #$r->get("/signup")->to("login#signup_get");
+    #$r->post("/signup")->to("login#signup_post");
+    #$r->get("/login/forgot")->to("login#forgot_get");
+    #$r->post("/login/forgot")->to("login#forgot_post");
 }
 
 sub _private_routes {

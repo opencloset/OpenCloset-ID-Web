@@ -54,7 +54,6 @@
                   </div>
                   <div class="col3 content text-right">
                     <label class="legend input-tip-text">
-                      <a href="<%= url_for("/login/forgot") %>">비밀번호를 잊었나요?</a>
                     </label>
                   </div>
                 </div>
@@ -99,9 +98,4 @@
         </div>
       </div>
 
-      <div class="row">
-        <div class="content col2 push2">
-          <a class="btn" href="<%= url_for("/signup") %>">새로운 계정을 만드세요!</a>
-        </div>
-      </div>
       <!-- SIGNIN ENDS -->
