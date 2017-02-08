@@ -9,7 +9,7 @@
     <!-- META BEGINS -->
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <link rel="icon" type="image/png" href="/icon.png" />
+    <link rel="icon" type="image/png" href="<%= url_for("/img/icon.png") %>" />
     <!-- META ENDS -->
 
     <!-- CSS BEGINS -->
